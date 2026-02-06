@@ -7,7 +7,7 @@ const config = {
   tagline: 'Self-hosted Discord moderation bot',
   favicon: 'img/favicon.ico',
 
-  url: 'https://<YOUR_RAILWAY_PROJECT>.up.railway.app', // pune link-ul Railway când e live
+  url: 'https://example.com', 
   baseUrl: '/',
 
   organizationName: 'airplaneon',
@@ -27,12 +27,12 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          routeBasePath: '/', // docs direct pe homepage
+          routeBasePath: '/', 
         },
         blog: false,
         pages: false,
         theme: {
-          customCss: require.resolve('./src/css/custom.css'), // trebuie să existe
+          customCss: require.resolve('./src/css/custom.css'), 
         },
       }),
     ],
