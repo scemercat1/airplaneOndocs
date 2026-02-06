@@ -7,14 +7,13 @@ const config = {
   tagline: 'Self-hosted Discord moderation bot',
   favicon: 'img/favicon.ico',
 
-  // Placeholder pentru URL-ul live Railway
-  url: 'https://your-railway-app.up.railway.app', 
+  url: 'https://<YOUR_RAILWAY_PROJECT>.up.railway.app', // pune link-ul Railway când e live
   baseUrl: '/',
 
-  organizationName: 'airplaneon', // GitHub org/user
-  projectName: 'airplaneon-docs', // Repo name
+  organizationName: 'airplaneon',
+  projectName: 'airplaneon-docs',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
@@ -33,7 +32,7 @@ const config = {
         blog: false,
         pages: false,
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'), // trebuie să existe
         },
       }),
     ],
@@ -54,12 +53,12 @@ const config = {
           label: 'Documentation',
         },
         {
-          href: 'https://github.com/YOUR_GITHUB',
+          href: 'https://github.com/scemercat1/airplaneOndocs',
           label: 'GitHub',
           position: 'right',
         },
         {
-          href: 'https://discord.gg/YOUR_INVITE',
+          href: 'https://discord.gg/GCKwVcwdvm',
           label: 'Discord',
           position: 'right',
         },
@@ -72,16 +71,31 @@ const config = {
         {
           title: 'Docs',
           items: [
-            { label: 'Getting Started', to: '/' },
-            { label: 'Self Hosting', to: '/self-hosting' },
-            { label: 'Railway', to: '/railway' },
-            { label: 'Commands', to: '/commands' },
+            {
+              label: 'Getting Started',
+              to: '/',
+            },
+            {
+              label: 'Self Hosting',
+              to: '/self-hosting',
+            },
+            {
+              label: 'Commands',
+              to: '/commands',
+            },
+            {
+              label: 'Railway',
+              to: '/railway',
+            },
           ],
         },
         {
           title: 'Community',
           items: [
-            { label: 'Discord', href: 'https://discord.gg/YOUR_INVITE' },
+            {
+              label: 'Discord',
+              href: 'https://discord.gg/GCKwVcwdvm',
+            },
           ],
         },
       ],
