@@ -7,11 +7,12 @@ const config = {
   tagline: 'Self-hosted Discord moderation bot',
   favicon: 'img/favicon.ico',
 
-  url: 'https://your-railway-domain.up.railway.app',
+  // Placeholder pentru URL-ul live Railway
+  url: 'https://your-railway-app.up.railway.app', 
   baseUrl: '/',
 
-  organizationName: 'airplaneon',
-  projectName: 'airplaneon-docs',
+  organizationName: 'airplaneon', // GitHub org/user
+  projectName: 'airplaneon-docs', // Repo name
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -27,7 +28,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          routeBasePath: '/', // docs direct pe homepage (ca zeppelin.gg)
+          routeBasePath: '/', // docs direct pe homepage
         },
         blog: false,
         pages: false,
@@ -71,23 +72,16 @@ const config = {
         {
           title: 'Docs',
           items: [
-            {
-              label: 'Getting Started',
-              to: '/',
-            },
-            {
-              label: 'Self Hosting',
-              to: '/self-hosting',
-            },
+            { label: 'Getting Started', to: '/' },
+            { label: 'Self Hosting', to: '/self-hosting' },
+            { label: 'Railway', to: '/railway' },
+            { label: 'Commands', to: '/commands' },
           ],
         },
         {
           title: 'Community',
           items: [
-            {
-              label: 'Discord',
-              href: 'https://discord.gg/YOUR_INVITE',
-            },
+            { label: 'Discord', href: 'https://discord.gg/YOUR_INVITE' },
           ],
         },
       ],
