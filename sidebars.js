@@ -4,6 +4,5 @@ module.exports = {
     'commands',
     'self-hosting',
     'railway',
-    'linux-docker', 
   ],
 };
