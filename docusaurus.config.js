@@ -1,54 +1,104 @@
-module.exports = {
-  title: 'Still Watching',
-  tagline: 'A private Discord moderation & notification bot',
-  url: 'https://your-domain.railway.app',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
+// @ts-check
+import { themes as prismThemes } from 'prism-react-renderer';
+
+/** @type {import('@docusaurus/types').Config} */
+const config = {
+  title: 'AirplaneON',
+  tagline: 'Self-hosted Discord moderation bot',
   favicon: 'img/favicon.ico',
 
-  organizationName: 'yourname',
-  projectName: 'still-watching-docs',
+  url: 'https://your-railway-domain.up.railway.app',
+  baseUrl: '/',
+
+  organizationName: 'airplaneon',
+  projectName: 'airplaneon-docs',
+
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+  },
 
   presets: [
     [
       'classic',
-      {
+      ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: './sidebars.js',
+          routeBasePath: '/', // docs direct pe homepage (ca zeppelin.gg)
         },
         blog: false,
+        pages: false,
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: './src/css/custom.css',
         },
-      },
+      }),
     ],
   ],
 
   themeConfig: {
     navbar: {
-      title: 'Still Watching',
+      title: 'AirplaneON',
+      logo: {
+        alt: 'AirplaneON Logo',
+        src: 'img/logo.png',
+      },
       items: [
-        { to: '/docs/intro', label: 'Docs', position: 'left' },
         {
-          href: 'https://discord.com',
+          type: 'doc',
+          docId: 'intro',
+          position: 'left',
+          label: 'Documentation',
+        },
+        {
+          href: 'https://github.com/YOUR_GITHUB',
+          label: 'GitHub',
+          position: 'right',
+        },
+        {
+          href: 'https://discord.gg/YOUR_INVITE',
           label: 'Discord',
           position: 'right',
         },
       ],
     },
+
     footer: {
       style: 'dark',
       links: [
         {
           title: 'Docs',
           items: [
-            { label: 'Intro', to: '/docs/intro' },
-            { label: 'Commands', to: '/docs/commands' },
+            {
+              label: 'Getting Started',
+              to: '/',
+            },
+            {
+              label: 'Self Hosting',
+              to: '/self-hosting',
+            },
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'Discord',
+              href: 'https://discord.gg/YOUR_INVITE',
+            },
           ],
         },
       ],
-      copyright: `© ${new Date().getFullYear()} Still Watching`,
+      copyright: `Copyright © ${new Date().getFullYear()} AirplaneON`,
+    },
+
+    prism: {
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula,
     },
   },
 };
 
+export default config;
