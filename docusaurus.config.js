@@ -53,7 +53,7 @@ const config = {
           label: 'Documentation',
         },
         {
-          href: 'https://github.com/scemercat1/airplaneOndocs',
+          href: 'https://github.com/scemercat1/airplaneON',
           label: 'GitHub',
           position: 'right',
         },
