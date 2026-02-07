@@ -126,5 +126,5 @@ If you see errors, read them carefully.
 ## 🆘 Need Help?
 
 If you're stuck or want the official hosted version:
-👉 https://discord.gg/GCKwVcwdvm
+👉 https://discord.gg/P4HVgMeGwS
 
