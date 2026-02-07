@@ -13,7 +13,7 @@ Self-hosting is allowed **only for personal or internal use**.
 - Sharing access, selling setups, or offering it as a service **violates the license**
 
 If you want the **original hosted version (FULL & FREE)**, join the official Discord:
-👉 https://discord.gg/GCKwVcwdvm
+👉 https://discord.gg/P4HVgMeGwS
 
 ---
 
@@ -40,4 +40,4 @@ DISCORD_TOKEN=your_bot_token_here
 ❓ Need Help?
 
 If something doesn’t work or you want the official version:
-👉 https://discord.gg/GCKwVcwdvm
+👉 https://discord.gg/P4HVgMeGwS
