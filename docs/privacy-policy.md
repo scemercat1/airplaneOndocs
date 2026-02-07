@@ -67,4 +67,4 @@ For the latest version, always check this documentation.
 
 If you have any questions about this Privacy Policy or AirplaneON:
 
-- Join our Discord: [Click here](https://discord.gg/GCKwVcwdvm)
+- Join our Discord: [Click here](https://discord.gg/P4HVgMeGwS)
