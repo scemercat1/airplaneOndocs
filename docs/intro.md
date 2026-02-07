@@ -38,7 +38,7 @@ You can use the **official AirplaneON bot** for free.
 - Some requirements may apply (server size, trust, usage rules)
 
 👉 **To get full access to the original version for FREE**, join our Discord server:  
-🔗 https://discord.gg/GCKwVcwdvm
+🔗 https://discord.gg/P4HVgMeGwS
 
 ---
 
@@ -97,5 +97,5 @@ Everything is explained step by step.
 ## 💬 Need the Original Bot?
 
 If you want the **original AirplaneON bot hosted by us**, join here:  
-👉 https://discord.gg/GCKwVcwdvm
+👉 https://discord.gg/P4HVgMeGwS
 
