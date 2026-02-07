@@ -58,7 +58,7 @@ const config = {
           position: 'right',
         },
         {
-          href: 'https://discord.gg/GCKwVcwdvm',
+          href: 'https://discord.gg/P4HVgMeGwS',
           label: 'Discord',
           position: 'right',
         },
