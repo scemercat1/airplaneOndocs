@@ -1,5 +1,9 @@
 // @ts-check
 import { themes as prismThemes } from 'prism-react-renderer';
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
+const webpackConfigOverride = require('./docusaurus.webpack.config.js');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -36,6 +40,21 @@ const config = {
         },
       }),
     ],
+  ],
+
+  plugins: [
+    function progressPluginFix() {
+      return {
+        name: 'progress-plugin-fix',
+        configureWebpack(config) {
+          // Mutate ProgressPlugin instances in-place to strip invalid options,
+          // then return an empty merge object so Docusaurus's webpack-merge
+          // step is a no-op while our mutations are already applied.
+          webpackConfigOverride(config);
+          return {};
+        },
+      };
+    },
   ],
 
   themeConfig: {
