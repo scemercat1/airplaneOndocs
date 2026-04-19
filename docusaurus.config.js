@@ -3,7 +3,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'AirplaneON',
+  title: 'Aircraft Games',
   tagline: 'Self-hosted Discord moderation bot',
   favicon: 'img/favicon.ico',
 
@@ -40,7 +40,7 @@ const config = {
 
   themeConfig: {
     navbar: {
-      title: 'AirplaneON',
+      title: 'Aircraft Games',
       logo: {
         alt: 'AirplaneON Logo',
         src: 'img/logo.png',
@@ -84,8 +84,8 @@ const config = {
               to: '/commands',
             },
             {
-              label: 'Railway',
-              to: '/railway',
+              label: 'Terms Of Service',
+              to: '/tos',
             },
           ],
         },
