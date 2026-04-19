@@ -3,7 +3,7 @@ module.exports = {
     'intro',
     'commands',
     'self-hosting',
-    'Terms Of Service',
+    'tos',
     'privacy-policy', 
   ],
 };
