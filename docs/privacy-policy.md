@@ -1,18 +1,18 @@
 # 🔒 Privacy Policy
 
-This **Privacy Policy** explains how AirplaneON handles your information when you use our bot or documentation. By using AirplaneON, you agree to this policy.
+This **Privacy Policy** explains how Aircraft Games handles your information when you use our bot or documentation. By using Aircraft Games, you agree to this policy.
 
 ---
 
 # 1️⃣ Information We Collect
 
-AirplaneON does **not store any personal information** by default. However, your Discord account may interact with the bot for moderation purposes, which may include:
+Aircraft Games does **not store any personal information** by default. However, your Discord account may interact with the bot for moderation purposes, which may include:
 
 - Discord username and ID
 - Messages sent in your server (if moderation commands like `/warn`, `/mute` are used)
 - Roles and permissions within the server
 
-> **Note:** Self-hosted versions of AirplaneON run entirely on your server. All data remains on your server and is **not sent to any third-party**.
+> **Note:** Self-hosted versions of Aircraft Games run entirely on your server. All data remains on your server and is **not sent to any third-party**.
 
 ---
 
@@ -28,7 +28,7 @@ AirplaneON does **not store any personal information** by default. However, your
 
 # 3️⃣ Self-Hosted Version
 
-If you self-host AirplaneON:
+If you self-host Aircraft Games:
 
 - All data remains on your server
 - You are responsible for managing and securing the data
@@ -38,7 +38,7 @@ If you self-host AirplaneON:
 
 # 4️⃣ Third-Party Services
 
-AirplaneON may integrate with:
+Aircraft Games may integrate with:
 
 - Discord API
 - Optional logging services (only if configured by server owner)
@@ -65,6 +65,6 @@ For the latest version, always check this documentation.
 
 # 7️⃣ Contact
 
-If you have any questions about this Privacy Policy or AirplaneON:
+If you have any questions about this Privacy Policy or Aircraft Games:
 
-- Join our Discord: [Click here](https://discord.gg/P4HVgMeGwS)
+- Discord: https://discord.gg/QKUFnMeegh
